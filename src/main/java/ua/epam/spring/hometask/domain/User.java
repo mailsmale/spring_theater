@@ -1,21 +1,34 @@
 package ua.epam.spring.hometask.domain;
 
+import javax.persistence.*;
 import java.util.NavigableSet;
 import java.util.Objects;
+import java.util.Set;
 import java.util.TreeSet;
 
 /**
  * @author Yuriy_Tkach
  */
+@Entity
+@Table(name = "user")
 public class User extends DomainObject {
 
+    @Id
+    @GeneratedValue
+    private Integer id;
+
+    @Column
     private String firstName;
 
+    @Column
     private String lastName;
 
+    @Column
     private String email;
 
-    private NavigableSet<Ticket> tickets = new TreeSet<>();
+    @OneToMany(mappedBy = "user", cascade = CascadeType.REMOVE, targetEntity = Ticket.class)
+    private Set<Ticket> tickets = new TreeSet<>();
+
 
     public String getFirstName() {
         return firstName;
@@ -41,7 +54,7 @@ public class User extends DomainObject {
         this.email = email;
     }
 
-    public NavigableSet<Ticket> getTickets() {
+    public Set<Ticket> getTickets() {
         return tickets;
     }
 

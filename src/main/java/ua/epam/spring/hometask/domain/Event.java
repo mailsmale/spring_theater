@@ -2,45 +2,65 @@ package ua.epam.spring.hometask.domain;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
-import java.util.NavigableMap;
-import java.util.NavigableSet;
-import java.util.Objects;
-import java.util.TreeMap;
-import java.util.TreeSet;
+import java.util.*;
+import java.util.stream.Collectors;
+
+import javax.persistence.*;
+
+import org.hibernate.annotations.NaturalIdCache;
 
 /**
  * @author Yuriy_Tkach
  */
+@Entity(name = "Event")
+@Table(name = "event")
+@NaturalIdCache
 public class Event extends DomainObject {
 
+    @Id
+    @GeneratedValue
+    private Integer id;
+
+    @Column
     private String name;
 
-    private NavigableSet<LocalDateTime> airDates = new TreeSet<>();
+    @Column
+    @ElementCollection
+    private Set<LocalDateTime> airDates = new TreeSet<LocalDateTime>();
 
+    @Column
     private double basePrice;
 
+    @Column
     private EventRating rating;
 
-    private NavigableMap<LocalDateTime, Auditorium> auditoriums = new TreeMap<>();
+    @OneToMany(mappedBy = "event", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<EventAuditorium> auditoriums = new LinkedList<>();
 
     /**
-     * Checks if event is aired on particular <code>dateTime</code> and assigns
-     * auditorium to it.
+     * Checks if event is aired on particular <code>dateTime</code> and assigns auditorium to it.
      * 
      * @param dateTime
      *            Date and time of aired event for which to assign
      * @param auditorium
      *            Auditorium that should be assigned
-     * @return <code>true</code> if successful, <code>false</code> if event is
-     *         not aired on that date
+     * @return <code>true</code> if successful, <code>false</code> if event is not aired on that
+     *         date
      */
-    public boolean assignAuditorium(LocalDateTime dateTime, Auditorium auditorium) {
+    public boolean assignAuditorium(LocalDateTime dateTime, Auditorium auditorium, Double price) {
+        Double eventPrice = Optional.ofNullable(price).orElse(basePrice);
         if (airDates.contains(dateTime)) {
-            auditoriums.put(dateTime, auditorium);
+            EventAuditorium eventAuditorium = new EventAuditorium(this, auditorium, eventPrice);
+            auditoriums.add(eventAuditorium);
+            auditorium.getEventAuditoriumPair().add(new EventAuditorium(this, auditorium, price));
             return true;
         } else {
             return false;
         }
+    }
+
+    public boolean assignAuditorium(LocalDateTime dateTime, Auditorium auditorium) {
+        return assignAuditorium(dateTime, auditorium, null);
     }
 
     /**
@@ -48,11 +68,14 @@ public class Event extends DomainObject {
      * 
      * @param dateTime
      *            Date and time to remove auditorium for
-     * @return <code>true</code> if successful, <code>false</code> if not
-     *         removed
+     * @return <code>true</code> if successful, <code>false</code> if not removed
      */
     public boolean removeAuditoriumAssignment(LocalDateTime dateTime) {
-        return auditoriums.remove(dateTime) != null;
+        List<EventAuditorium> auditoriumsToRemove = this.auditoriums.stream()
+                .filter(auditorium -> auditorium.getCreatedOn().equals(dateTime))
+                .collect(Collectors.toList());
+        this.auditoriums.removeAll(auditoriumsToRemove);
+        return !auditoriumsToRemove.isEmpty();
     }
 
     /**
@@ -60,34 +83,15 @@ public class Event extends DomainObject {
      * 
      * @param dateTime
      *            Date and time to add
-     * @return <code>true</code> if successful, <code>false</code> if already
-     *         there
+     * @return <code>true</code> if successful, <code>false</code> if already there
      */
     public boolean addAirDateTime(LocalDateTime dateTime) {
         return airDates.add(dateTime);
     }
 
     /**
-     * Adding date and time of event air and assigning auditorium to that
-     * 
-     * @param dateTime
-     *            Date and time to add
-     * @param auditorium
-     *            Auditorium to add if success in date time add
-     * @return <code>true</code> if successful, <code>false</code> if already
-     *         there
-     */
-    public boolean addAirDateTime(LocalDateTime dateTime, Auditorium auditorium) {
-        boolean result = airDates.add(dateTime);
-        if (result) {
-            auditoriums.put(dateTime, auditorium);
-        }
-        return result;
-    }
-
-    /**
-     * Removes the date and time of event air. If auditorium was assigned to
-     * that date and time - the assignment is also removed
+     * Removes the date and time of event air. If auditorium was assigned to that date and time -
+     * the assignment is also removed
      * 
      * @param dateTime
      *            Date and time to remove
@@ -124,8 +128,7 @@ public class Event extends DomainObject {
     }
 
     /**
-     * Checking if event airs on dates between <code>from</code> and
-     * <code>to</code> inclusive
+     * Checking if event airs on dates between <code>from</code> and <code>to</code> inclusive
      * 
      * @param from
      *            Start date to check
@@ -134,8 +137,8 @@ public class Event extends DomainObject {
      * @return <code>true</code> event airs on dates
      */
     public boolean airsOnDates(LocalDate from, LocalDate to) {
-        return airDates.stream()
-                .anyMatch(dt -> dt.toLocalDate().compareTo(from) >= 0 && dt.toLocalDate().compareTo(to) <= 0);
+        return airDates.stream().anyMatch(
+                dt -> dt.toLocalDate().compareTo(from) >= 0 && dt.toLocalDate().compareTo(to) <= 0);
     }
 
     public String getName() {
@@ -146,7 +149,7 @@ public class Event extends DomainObject {
         this.name = name;
     }
 
-    public NavigableSet<LocalDateTime> getAirDates() {
+    public Set<LocalDateTime> getAirDates() {
         return airDates;
     }
 
@@ -170,11 +173,11 @@ public class Event extends DomainObject {
         this.rating = rating;
     }
 
-    public NavigableMap<LocalDateTime, Auditorium> getAuditoriums() {
+    public List<EventAuditorium> getAuditoriums() {
         return auditoriums;
     }
 
-    public void setAuditoriums(NavigableMap<LocalDateTime, Auditorium> auditoriums) {
+    public void setAuditoriums(LinkedList<EventAuditorium> auditoriums) {
         this.auditoriums = auditoriums;
     }
 
