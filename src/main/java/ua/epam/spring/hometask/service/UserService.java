@@ -3,11 +3,14 @@ package ua.epam.spring.hometask.service;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
+import org.springframework.stereotype.Service;
+
 import ua.epam.spring.hometask.domain.User;
 
 /**
  * @author Yuriy_Tkach
  */
+@Service("userService")
 public interface UserService extends AbstractDomainObjectService<User> {
 
     /**

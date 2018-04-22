@@ -5,4 +5,5 @@ import ua.epam.spring.hometask.domain.Event;
 
 public interface EventRepository extends JpaRepository<Event, Long> {
 
+    Event findByName(String name);
 }

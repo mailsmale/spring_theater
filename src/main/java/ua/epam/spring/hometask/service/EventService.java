@@ -3,11 +3,14 @@ package ua.epam.spring.hometask.service;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
+import org.springframework.stereotype.Service;
+
 import ua.epam.spring.hometask.domain.Event;
 
 /**
  * @author Yuriy_Tkach
  */
+@Service("eventService")
 public interface EventService extends AbstractDomainObjectService<Event> {
 
     /**
@@ -34,8 +37,8 @@ public interface EventService extends AbstractDomainObjectService<Event> {
     /*
      * Return events from 'now' till the the specified date time
      * 
-     * @param to End date time inclusive
-     * s
+     * @param to End date time inclusive s
+     * 
      * @return Set of events
      */
     // public @Nonnull Set<Event> getNextEvents(@Nonnull LocalDateTime to);

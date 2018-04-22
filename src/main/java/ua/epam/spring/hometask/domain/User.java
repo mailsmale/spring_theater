@@ -1,6 +1,9 @@
 package ua.epam.spring.hometask.domain;
 
 import javax.persistence.*;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.ZonedDateTime;
 import java.util.NavigableSet;
 import java.util.Objects;
 import java.util.Set;
@@ -25,6 +28,12 @@ public class User extends DomainObject {
 
     @Column
     private String email;
+
+    @Column
+    private LocalDate birthDay;
+
+    @Column
+    private boolean availableDiscountForTenthTicket;
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.REMOVE, targetEntity = Ticket.class)
     private Set<Ticket> tickets = new TreeSet<>();
@@ -60,6 +69,10 @@ public class User extends DomainObject {
 
     public void setTickets(NavigableSet<Ticket> tickets) {
         this.tickets = tickets;
+    }
+
+    public LocalDate getBirthDay() {
+        return birthDay;
     }
 
     @Override
@@ -103,4 +116,11 @@ public class User extends DomainObject {
         return true;
     }
 
+    public boolean isAvailableDiscountForTenthTicket() {
+        return availableDiscountForTenthTicket;
+    }
+
+    public void setAvailableDiscountForTenthTicket(boolean availableDiscountForTenthTicket) {
+        this.availableDiscountForTenthTicket = availableDiscountForTenthTicket;
+    }
 }

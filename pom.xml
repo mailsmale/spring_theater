@@ -16,13 +16,13 @@
         <junit.version>4.12</junit.version>
         <hibernate.version>4.3.4.Final</hibernate.version>
         <slf4j.version>1.7.25</slf4j.version>
+        <aspectjweaver.version>1.8.12</aspectjweaver.version>
     </properties>
     <build>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
                 <filtering>false</filtering>
-                <targetPath>../resources</targetPath>
                 <includes>
                     <include>**/*</include>
                 </includes>
@@ -122,11 +122,7 @@
             <artifactId>spring-aop</artifactId>
             <version>${org.springframework.version}</version>
         </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-context</artifactId>
-            <version>${org.springframework.version}</version>
-        </dependency>
+
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context-support</artifactId>
@@ -162,6 +158,11 @@
             <artifactId>spring-data-commons</artifactId>
             <version>2.0.6.RELEASE</version>
         </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>${org.springframework.version}</version>
+        </dependency>
         <!--spring-->
         <!--hibernate-->
         <dependency>
@@ -190,17 +191,25 @@
         </dependency>
         <!--database driver-->
         <!--added by me-->
+        <!--AOP-->
         <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-context</artifactId>
-            <version>${org.springframework.version}</version>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>${aspectjweaver.version}</version>
         </dependency>
-
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjrt</artifactId>
+            <version>${aspectjweaver.version}</version>
+        </dependency>
+        <!--AOP-->
+        <!--firebugs-->
         <dependency>
             <groupId>com.google.code.findbugs</groupId>
             <artifactId>jsr305</artifactId>
             <version>${findbugs.version}</version>
         </dependency>
+        <!--firebugs-->
 
         <dependency>
             <groupId>junit</groupId>

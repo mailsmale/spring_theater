@@ -1,9 +1,11 @@
 package ua.epam.spring.hometask.service;
 
 import java.util.Collection;
+import java.util.Optional;
 
 import javax.annotation.Nonnull;
 
+import org.springframework.stereotype.Service;
 import ua.epam.spring.hometask.domain.DomainObject;
 
 /**
@@ -12,6 +14,7 @@ import ua.epam.spring.hometask.domain.DomainObject;
  * @param <T>
  *            DomainObject subclass
  */
+@Service("abstractDomainObjectService")
 public interface AbstractDomainObjectService<T extends DomainObject> {
 
     /**
@@ -38,7 +41,7 @@ public interface AbstractDomainObjectService<T extends DomainObject> {
      *            id of the object
      * @return Found object or <code>null</code>
      */
-    public T getById(@Nonnull Long id);
+    public Optional<T> getById(@Nonnull Long id);
 
     /**
      * Getting all objects from storage

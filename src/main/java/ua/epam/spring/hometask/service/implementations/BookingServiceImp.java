@@ -1,14 +1,15 @@
 package ua.epam.spring.hometask.service.implementations;
 
 import java.time.LocalDateTime;
+import java.util.Optional;
 import java.util.Set;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
 import org.springframework.beans.factory.annotation.Autowired;
-
 import org.springframework.stereotype.Service;
+
 import ua.epam.spring.hometask.domain.Event;
 import ua.epam.spring.hometask.domain.EventAuditorium;
 import ua.epam.spring.hometask.domain.Ticket;
@@ -19,7 +20,7 @@ import ua.epam.spring.hometask.repositories.UserRepository;
 import ua.epam.spring.hometask.service.BookingService;
 import ua.epam.spring.hometask.service.DiscountService;
 
-@Service
+@Service("bookingServiceImp")
 public class BookingServiceImp implements BookingService {
 
     @Autowired
@@ -37,22 +38,28 @@ public class BookingServiceImp implements BookingService {
     @Override
     public double getTicketsPrice(@Nonnull Event event, @Nonnull LocalDateTime dateTime,
             @Nullable User user, @Nonnull Set<Long> seats) {
-        EventAuditorium eventAuditorium = event.getAuditoriums().stream().filter(e -> e.getCreatedOn().equals
-                (dateTime)).findFirst().get();
+        EventAuditorium eventAuditorium = event.getAuditoriums().stream()
+                .filter(e -> e.getCreatedOn().equals(dateTime)).findFirst().get();
         Double eventPriceWithoutDiscount = eventAuditorium.getEventPrice();
         int size = seats.size();
         byte discount = discountService.getDiscount(user, event, dateTime, size);
-        return (100 - discount)/100 * eventPriceWithoutDiscount * size;
+        return (100 - discount) / 100 * eventPriceWithoutDiscount * size;
     }
 
     @Override
-    public void bookTickets(@Nonnull Set<Ticket> tickets) {
+    public void bookTickets(@Nonnull Set<Ticket> tickets, User user) {
         tickets.stream().forEach(ticket -> {
             long ticketSeat = ticket.getSeat();
-            ticket.getEvent().getAuditoriums().stream().filter(eventAuditorium -> eventAuditorium.getCreatedOn()
-                    .equals(ticket.getDateTime())).forEach(eventAuditorium -> eventAuditorium.getAuditorium()
-                    .getAllSeats().stream().filter(seat -> seat.getId().equals(ticketSeat)).forEach(seat -> seat
-                            .setAvailability(false)));
+            ticket.getEvent().getAuditoriums().stream().filter(
+                    eventAuditorium -> eventAuditorium.getCreatedOn().equals(ticket.getDateTime()))
+                    .forEach(eventAuditorium -> eventAuditorium.getAuditorium().getAllSeats().stream()
+                            .filter(seat -> seat.getId().equals(ticketSeat))
+                            .forEach(seat -> seat.setAvailability(false)));
+            ticketRepository.save(ticket);
+        });
+        Optional.ofNullable(user).ifPresent((pUser) -> {
+            pUser.getTickets().addAll(tickets);
+            userRepository.save(user);
         });
     }
 

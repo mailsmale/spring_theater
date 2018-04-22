@@ -8,7 +8,7 @@ import javax.persistence.*;
  * @author Yuriy_Tkach
  */
 @Entity
-public class Auditorium {
+public class Auditorium extends DomainObject {
 
     @Id
     @GeneratedValue
@@ -104,9 +104,6 @@ public class Auditorium {
         return id;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
-    }
 
     public Set<Seat> getVipSeats() {
         return vipSeats;
