@@ -7,7 +7,11 @@ import java.util.stream.Collectors;
 
 import javax.persistence.*;
 
+import lombok.NoArgsConstructor;
+import lombok.RequiredArgsConstructor;
 import org.hibernate.annotations.NaturalIdCache;
+
+import lombok.NonNull;
 
 /**
  * @author Yuriy_Tkach
@@ -15,6 +19,8 @@ import org.hibernate.annotations.NaturalIdCache;
 @Entity(name = "Event")
 @Table(name = "event")
 @NaturalIdCache
+@RequiredArgsConstructor
+@NoArgsConstructor
 public class Event extends DomainObject {
 
     @Id
@@ -22,6 +28,7 @@ public class Event extends DomainObject {
     private Integer id;
 
     @Column
+    @NonNull
     private String name;
 
     @Column

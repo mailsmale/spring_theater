@@ -19,7 +19,7 @@ public class TestEvent {
 
 	@Before
 	public void initEvent() {
-		event = new Event();
+		event = new Event("Test event");
 		event.setBasePrice(1.1);
 		event.setName("aaa");
 		event.setRating(EventRating.HIGH);

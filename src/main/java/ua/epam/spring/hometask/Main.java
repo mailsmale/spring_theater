@@ -18,9 +18,9 @@ public class Main {
         ConfigurableApplicationContext applicationContext = new ClassPathXmlApplicationContext(
                 "applicationContext.xml");
         EventService eventServiceImp = applicationContext.getBean(EventService.class);
-        eventServiceImp.getByName("exampleName");
-        eventServiceImp.getByName("exampleName");
-        eventServiceImp.getByName("exampleName");
+        eventServiceImp.getByName("Comedy club");
+        eventServiceImp.getByName("Comedy club");
+        eventServiceImp.getByName("Comedy club");
         LOG.info(String.valueOf(applicationContext.getBean(CounterAspect.class).getByNameCalledCount()));
         LOG.info("123");
 
