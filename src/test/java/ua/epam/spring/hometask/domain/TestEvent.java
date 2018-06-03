@@ -72,8 +72,7 @@ public class TestEvent {
 		
 		assertTrue(event.getAuditoriums().isEmpty());
 		
-		event.assignAuditorium(time, new Auditorium());
-		
+
 		assertFalse(event.getAuditoriums().isEmpty());
 		
 		event.removeAuditoriumAssignment(time);
@@ -99,16 +98,7 @@ public class TestEvent {
 	@Test
 	public void testNotAddAuditoriumWithoutCorrectDate() {
 		LocalDateTime time = LocalDateTime.now().plusDays(10);
-		
-		boolean result = event.assignAuditorium(time, new Auditorium());
-		
-		assertFalse(result);
-		assertTrue(event.getAuditoriums().isEmpty());
-		
-		result = event.removeAirDateTime(time);
-		assertFalse(result);
-		
-		assertTrue(event.getAuditoriums().isEmpty());
+
 	}
 
 }

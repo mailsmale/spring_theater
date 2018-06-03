@@ -2,8 +2,6 @@ package ua.epam.spring.hometask.domain;
 
 import javax.persistence.*;
 import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.ZonedDateTime;
 import java.util.NavigableSet;
 import java.util.Objects;
 import java.util.Set;
@@ -13,7 +11,6 @@ import java.util.TreeSet;
  * @author Yuriy_Tkach
  */
 @Entity
-@Table(name = "user")
 public class User extends DomainObject {
 
     @Id
@@ -21,7 +18,7 @@ public class User extends DomainObject {
     private Integer id;
 
     @Column
-    private String firstName;
+    private String name;
 
     @Column
     private String lastName;
@@ -39,12 +36,12 @@ public class User extends DomainObject {
     private Set<Ticket> tickets = new TreeSet<>();
 
 
-    public String getFirstName() {
-        return firstName;
+    public String getName() {
+        return name;
     }
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
+    public void setName(String firstName) {
+        this.name = firstName;
     }
 
     public String getLastName() {
@@ -77,7 +74,7 @@ public class User extends DomainObject {
 
     @Override
     public int hashCode() {
-        return Objects.hash(firstName, lastName, email);
+        return Objects.hash(name, lastName, email);
     }
 
     @Override
@@ -99,11 +96,11 @@ public class User extends DomainObject {
         } else if (!email.equals(other.email)) {
             return false;
         }
-        if (firstName == null) {
-            if (other.firstName != null) {
+        if (name == null) {
+            if (other.name != null) {
                 return false;
             }
-        } else if (!firstName.equals(other.firstName)) {
+        } else if (!name.equals(other.name)) {
             return false;
         }
         if (lastName == null) {

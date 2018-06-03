@@ -4,8 +4,10 @@ import java.util.Collection;
 import java.util.Optional;
 
 import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 import org.springframework.stereotype.Service;
+
 import ua.epam.spring.hometask.domain.DomainObject;
 
 /**
@@ -49,4 +51,6 @@ public interface AbstractDomainObjectService<T extends DomainObject> {
      * @return collection of objects
      */
     public @Nonnull Collection<T> getAll();
+
+    public @Nullable T getByName(@Nonnull String name);
 }

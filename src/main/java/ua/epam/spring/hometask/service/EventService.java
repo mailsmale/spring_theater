@@ -3,24 +3,26 @@ package ua.epam.spring.hometask.service;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
+import com.sun.istack.internal.NotNull;
 import org.springframework.stereotype.Service;
 
+import org.springframework.transaction.annotation.Transactional;
+import ua.epam.spring.hometask.domain.Auditorium;
 import ua.epam.spring.hometask.domain.Event;
+
+import java.time.LocalDateTime;
 
 /**
  * @author Yuriy_Tkach
  */
-@Service("eventService")
+@Service
+@Transactional
 public interface EventService extends AbstractDomainObjectService<Event> {
 
-    /**
-     * Finding event by name
-     * 
-     * @param name
-     *            Name of the event
-     * @return found event or <code>null</code>
-     */
-    public @Nullable Event getByName(@Nonnull String name);
+    @Nullable Double getEventPrice (@NotNull Auditorium auditorium,  @NotNull Event event, @NotNull
+            LocalDateTime localDateTime);
+
+    void assignAuditorium(LocalDateTime dateTime, Event event, Auditorium auditorium, Double price);
 
     /*
      * Finding all events that air on specified date range

@@ -11,7 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import ua.epam.spring.hometask.domain.Event;
-import ua.epam.spring.hometask.domain.EventAuditorium;
+import ua.epam.spring.hometask.domain.AuditoriumEvent;
 import ua.epam.spring.hometask.domain.Ticket;
 import ua.epam.spring.hometask.domain.User;
 import ua.epam.spring.hometask.repositories.EventRepository;
@@ -38,9 +38,9 @@ public class BookingServiceImp implements BookingService {
     @Override
     public double getTicketsPrice(@Nonnull Event event, @Nonnull LocalDateTime dateTime,
             @Nullable User user, @Nonnull Set<Long> seats) {
-        EventAuditorium eventAuditorium = event.getAuditoriums().stream()
-                .filter(e -> e.getCreatedOn().equals(dateTime)).findFirst().get();
-        Double eventPriceWithoutDiscount = eventAuditorium.getEventPrice();
+        AuditoriumEvent auditoriumEvent = event.getAuditoriums().stream()
+                .filter(e -> e.getDate().equals(dateTime)).findFirst().get();
+        Double eventPriceWithoutDiscount = auditoriumEvent.getEventPrice();
         int size = seats.size();
         byte discount = discountService.getDiscount(user, event, dateTime, size);
         return (100 - discount) / 100 * eventPriceWithoutDiscount * size;
@@ -51,7 +51,7 @@ public class BookingServiceImp implements BookingService {
         tickets.stream().forEach(ticket -> {
             long ticketSeat = ticket.getSeat();
             ticket.getEvent().getAuditoriums().stream().filter(
-                    eventAuditorium -> eventAuditorium.getCreatedOn().equals(ticket.getDateTime()))
+                    eventAuditorium -> eventAuditorium.getDate().equals(ticket.getDateTime()))
                     .forEach(eventAuditorium -> eventAuditorium.getAuditorium().getAllSeats().stream()
                             .filter(seat -> seat.getId().equals(ticketSeat))
                             .forEach(seat -> seat.setAvailability(false)));

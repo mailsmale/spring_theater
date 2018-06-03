@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EclipseCodeFormatterProjectSettings">
+    <option name="selectedGlobalProfile">
+      <Settings>
+        <option name="formatter" value="ECLIPSE" />
+        <option name="id" value="1524155067272" />
+        <option name="importOrderConfigFilePath" value="$USER_HOME$/epam/ctco-ecom/ide-settings/IDEA/idea_formatter.importorder" />
+        <option name="importOrderFromFile" value="true" />
+        <option name="name" value="qa-framework-ecom-smoke" />
+        <option name="pathToConfigFileJava" value="$USER_HOME$/epam/ctco-ecom/ide-settings/eclipse/formatter1.xml" />
+        <option name="selectedJavaProfile" value="My" />
+      </Settings>
+    </option>
+  </component>
+</project>

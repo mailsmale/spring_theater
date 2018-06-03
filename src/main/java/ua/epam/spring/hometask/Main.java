@@ -6,24 +6,36 @@ import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import ua.epam.spring.hometask.aop.CounterAspect;
+import ua.epam.spring.hometask.domain.Auditorium;
+import ua.epam.spring.hometask.domain.Event;
+import ua.epam.spring.hometask.service.AuditoriumService;
 import ua.epam.spring.hometask.service.EventService;
+import ua.epam.spring.hometask.service.implementations.InitDBService;
+
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 public class Main {
 
     private static final Logger LOG = LoggerFactory.getLogger(Main.class.getSimpleName());
 
     public static void main(String[] args) {
-        ConfigurableApplicationContext aspectContext = new ClassPathXmlApplicationContext(
-                "aspectsContext.xml");
+//        ConfigurableApplicationContext aspectContext = new ClassPathXmlApplicationContext(
+//                "aspectsContext.xml");
         ConfigurableApplicationContext applicationContext = new ClassPathXmlApplicationContext(
                 "applicationContext.xml");
-        EventService eventServiceImp = applicationContext.getBean(EventService.class);
-        eventServiceImp.getByName("Comedy club");
-        eventServiceImp.getByName("Comedy club");
-        eventServiceImp.getByName("Comedy club");
-        LOG.info(String.valueOf(applicationContext.getBean(CounterAspect.class).getByNameCalledCount()));
-        LOG.info("123");
+        applicationContext.getBean(InitDBService.class).init();
+        EventService eventService = applicationContext.getBean(EventService.class);
+        AuditoriumService auditoriumService = applicationContext.getBean(AuditoriumService.class);
+        Event comedyClubTestEvent = eventService.getByName("Comedy club");
+        Auditorium testAuditorium = auditoriumService.getByName("testAuditorium");
+        LocalDateTime dateTime = LocalDate.now().atTime(12, 00);
+        eventService.assignAuditorium(dateTime, comedyClubTestEvent, testAuditorium, 100.00);
+        eventService.getEventPrice(testAuditorium, comedyClubTestEvent, dateTime);
 
     }
+
+
+
 
 }

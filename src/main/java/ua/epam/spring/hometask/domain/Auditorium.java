@@ -4,9 +4,7 @@ import java.util.*;
 
 import javax.persistence.*;
 
-/**
- * @author Yuriy_Tkach
- */
+
 @Entity
 public class Auditorium extends DomainObject {
 
@@ -14,20 +12,21 @@ public class Auditorium extends DomainObject {
     @GeneratedValue
     private Integer id;
 
+
     @Column(length = 255)
     private String name;
 
     @Column
     private long numberOfSeats;
 
-    @OneToMany(mappedBy = "auditorium")
+    @OneToMany(mappedBy = "auditorium", fetch = FetchType.EAGER)
     private Set<Seat> allSeats;
 
-    @OneToMany(mappedBy = "auditorium")
+    @OneToMany(mappedBy = "auditorium", fetch = FetchType.EAGER)
     private Set<Seat> vipSeats;
 
-    @OneToMany(mappedBy = "auditorium", cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<EventAuditorium> events = new ArrayList<>();
+    @OneToMany(mappedBy = "auditorium", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+    private List<AuditoriumEvent> events = new ArrayList<>();
 
     public Auditorium() {
     }
@@ -65,11 +64,11 @@ public class Auditorium extends DomainObject {
      * public void setVipSeats(Set<Long> vipSeats) { this.vipSeats = vipSeats; }
      */
 
-    public List<EventAuditorium> getEventAuditoriumPair() {
+    public List<AuditoriumEvent> getEventAuditoriumPair() {
         return events;
     }
 
-    public void setEvents(List<EventAuditorium> events) {
+    public void setEvents(List<AuditoriumEvent> events) {
         this.events = events;
     }
 

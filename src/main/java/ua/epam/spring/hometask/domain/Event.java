@@ -16,8 +16,7 @@ import lombok.NonNull;
 /**
  * @author Yuriy_Tkach
  */
-@Entity(name = "Event")
-@Table(name = "event")
+@Entity
 @NaturalIdCache
 @RequiredArgsConstructor
 @NoArgsConstructor
@@ -25,14 +24,14 @@ public class Event extends DomainObject {
 
     @Id
     @GeneratedValue
-    private Integer id;
+    private Long id;
 
     @Column
     @NonNull
     private String name;
 
     @Column
-    @ElementCollection
+    @ElementCollection(fetch = FetchType.EAGER)
     private Set<LocalDateTime> airDates = new TreeSet<LocalDateTime>();
 
     @Column
@@ -41,8 +40,8 @@ public class Event extends DomainObject {
     @Column
     private EventRating rating;
 
-    @OneToMany(mappedBy = "event", cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<EventAuditorium> auditoriums = new LinkedList<>();
+    @OneToMany(mappedBy = "event", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+    private List<AuditoriumEvent> auditoriums = new LinkedList<>();
 
     /**
      * Checks if event is aired on particular <code>dateTime</code> and assigns auditorium to it.
@@ -54,19 +53,17 @@ public class Event extends DomainObject {
      * @return <code>true</code> if successful, <code>false</code> if event is not aired on that
      *         date
      */
-    public boolean assignAuditorium(LocalDateTime dateTime, Auditorium auditorium, Double price) {
+    public AuditoriumEvent assignAuditorium(LocalDateTime dateTime, Auditorium auditorium, Double price) {
         Double eventPrice = Optional.ofNullable(price).orElse(basePrice);
-        if (airDates.contains(dateTime)) {
-            EventAuditorium eventAuditorium = new EventAuditorium(this, auditorium, eventPrice);
-            auditoriums.add(eventAuditorium);
-            auditorium.getEventAuditoriumPair().add(new EventAuditorium(this, auditorium, price));
-            return true;
-        } else {
-            return false;
-        }
+        AuditoriumEvent auditoriumEvent = new AuditoriumEvent(this, auditorium, eventPrice, dateTime);
+        auditoriums.add(auditoriumEvent);
+        auditoriumEvent.setEventPrice(price);
+        auditorium.getEventAuditoriumPair().add(auditoriumEvent);
+        airDates.add(dateTime);
+        return auditoriumEvent;
     }
 
-    public boolean assignAuditorium(LocalDateTime dateTime, Auditorium auditorium) {
+    public AuditoriumEvent assignAuditorium(LocalDateTime dateTime, Auditorium auditorium) {
         return assignAuditorium(dateTime, auditorium, null);
     }
 
@@ -78,8 +75,8 @@ public class Event extends DomainObject {
      * @return <code>true</code> if successful, <code>false</code> if not removed
      */
     public boolean removeAuditoriumAssignment(LocalDateTime dateTime) {
-        List<EventAuditorium> auditoriumsToRemove = this.auditoriums.stream()
-                .filter(auditorium -> auditorium.getCreatedOn().equals(dateTime))
+        List<AuditoriumEvent> auditoriumsToRemove = this.auditoriums.stream()
+                .filter(auditorium -> auditorium.getDate().equals(dateTime))
                 .collect(Collectors.toList());
         this.auditoriums.removeAll(auditoriumsToRemove);
         return !auditoriumsToRemove.isEmpty();
@@ -180,11 +177,11 @@ public class Event extends DomainObject {
         this.rating = rating;
     }
 
-    public List<EventAuditorium> getAuditoriums() {
+    public List<AuditoriumEvent> getAuditoriums() {
         return auditoriums;
     }
 
-    public void setAuditoriums(LinkedList<EventAuditorium> auditoriums) {
+    public void setAuditoriums(LinkedList<AuditoriumEvent> auditoriums) {
         this.auditoriums = auditoriums;
     }
 

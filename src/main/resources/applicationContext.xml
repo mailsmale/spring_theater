@@ -41,6 +41,8 @@
     <jpa:repositories base-package="ua.epam.spring.hometask.repositories" entity-manager-factory-ref="emf"/>
     <task:annotation-driven/>
     <aop:aspectj-autoproxy/>
+
+
 <!--    <aop:config>
         <aop:pointcut id="anyDaoMethod"
                       expression="@target(org.springframework.stereotype.Repository)"/>
