@@ -14,8 +14,9 @@ repositories {
 
 dependencies {
 	compile "org.springframework:spring-context:${springVersion}"
+    compile group: 'javax.inject', name: 'javax.inject', version: '1'
 
-	testCompile "org.springframework:spring-test:${springVersion}"
+            testCompile "org.springframework:spring-test:${springVersion}"
 	testCompile "com.github.stefanbirkner:system-rules:${systemRulesVersion}"
 }
 
