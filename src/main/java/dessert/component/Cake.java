@@ -1,9 +1,12 @@
 package dessert.component;
 
-
-import com.google.inject.name.Named;
 import org.springframework.stereotype.Component;
 
+import dessert.annotaion.qualifier.Creamy;
+
 @Component
+//@Qualifier(value = "soft")
+@Creamy
 public class Cake implements Dessert {
+
 }
