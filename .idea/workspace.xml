@@ -2,18 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41d53a6a-7ce7-4bbe-a5e6-eee25d57ab9d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c232570a-0380-4179-8d66-a696423cc74a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c232570a-0380-4179-8d66-a696423cc74a.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/spring-core-hometask-skeleton.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/spring-core-hometask-skeleton.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring_book/SpringiA4_SourceCode/Chapter_01/knight" beforeDir="false" afterPath="$PROJECT_DIR$/spring_book/SpringiA4_SourceCode/Chapter_01/knight" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring_book/SpringiA4_SourceCode/Chapter_02/stereo-autoconfig/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_book/SpringiA4_SourceCode/Chapter_02/stereo-autoconfig/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_book/SpringiA4_SourceCode/Chapter_02/stereo-autoconfig/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spring_book/SpringiA4_SourceCode/Chapter_02/stereo-autoconfig/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_book/SpringiA4_SourceCode/Chapter_02/stereo-autoconfig/src/main/java/soundsystem/CDPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_book/SpringiA4_SourceCode/Chapter_02/stereo-autoconfig/src/main/java/soundsystem/CDPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_book/SpringiA4_SourceCode/Chapter_02/stereo-autoconfig/src/main/java/soundsystem/CDPlayerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_book/SpringiA4_SourceCode/Chapter_02/stereo-autoconfig/src/main/java/soundsystem/CDPlayerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_book/SpringiA4_SourceCode/Chapter_02/stereo-autoconfig/src/main/java/soundsystem/SgtPeppers.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_book/SpringiA4_SourceCode/Chapter_02/stereo-autoconfig/src/main/java/soundsystem/SgtPeppers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_book/SpringiA4_SourceCode/Chapter_02/stereo-autoconfig/src/main/resources/META-INF/spring/soundsystem.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_book/SpringiA4_SourceCode/Chapter_02/stereo-autoconfig/src/main/resources/META-INF/spring/soundsystem.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_book/SpringiA4_SourceCode/Chapter_02/stereo-autoconfig/src/test/java/soundsystem/CDPlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_book/SpringiA4_SourceCode/Chapter_02/stereo-autoconfig/src/test/java/soundsystem/CDPlayerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_book/SpringiA4_SourceCode/Chapter_02/stereo-autoconfig/src/test/java/soundsystem/CDPlayerXMLConfigTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_book/SpringiA4_SourceCode/Chapter_02/stereo-autoconfig/src/test/java/soundsystem/CDPlayerXMLConfigTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_book/SpringiA4_SourceCode/Chapter_03/conditional/src/main/java/com/habuma/restfun/MagicConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_book/SpringiA4_SourceCode/Chapter_03/conditional/src/main/java/com/habuma/restfun/MagicConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_book/SpringiA4_SourceCode/Chapter_03/conditional/src/test/java/com/habuma/restfun/MagicExistsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_book/SpringiA4_SourceCode/Chapter_03/conditional/src/test/java/com/habuma/restfun/MagicExistsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_book/SpringiA4_SourceCode/Chapter_03/profiles/src/main/resources/datasource-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_book/SpringiA4_SourceCode/Chapter_03/profiles/src/main/resources/datasource-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_book/SpringiA4_SourceCode/Chapter_03/profiles/src/test/java/profiles/DataSourceConfigTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_book/SpringiA4_SourceCode/Chapter_03/profiles/src/test/java/profiles/DataSourceConfigTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/epam/spring/hometask/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/epam/spring/hometask/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/epam/spring/hometask/aop/CounterAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/epam/spring/hometask/aop/CounterAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ua/epam/spring/hometask/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/aspectsContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ua/epam/spring/hometask/aspectsContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ua/epam/spring/hometask/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ua/epam/spring/hometask/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ua/epam/spring/hometask/spring.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,11 +45,60 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/epam/spring/hometask/Main.java">
+      <file leaf-file-name="DessertTest.java" pinned="true" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/dessert/DessertTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+            <state relative-caret-position="323">
+              <caret line="19" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cake.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dessert/component/Cake.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Named.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/google/inject/guice/4.0-beta/guice-4.0-beta.jar!/com/google/inject/name/Named.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DessertConfiguration.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dessert/config/DessertConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#405#406#0" expanded="true" />
+                <element signature="e#438#439#0" expanded="true" />
+                <element signature="e#473#474#0" expanded="true" />
+                <element signature="e#506#507#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CDPlayerTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/soundsystem/CDPlayerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -62,8 +115,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>name</find>
-      <find>hibernate.connection.datasource</find>
       <find>testAuditorium</find>
       <find>Duplicate</find>
       <find>event1_</find>
@@ -92,6 +143,8 @@
       <find>Component</find>
       <find>utf</find>
       <find>encod</find>
+      <find>Named</find>
+      <find>META-INF/spring</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -100,23 +153,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ua/epam/spring/hometask/engine/exception/IncompatibleDataException.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/target/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/epam/spring/hometask/aop.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/epam/spring/hometask/aop/Logging.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/epam/spring/hometask/aop/DiscountAspect.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/epam/spring/hometask/aop/LuckyWinnerAspect.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/epam/spring/hometask/service/BookingService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/epam/spring/hometask/service/DiscountService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/epam/spring/hometask/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/epam/spring/hometask/service/implementations/AuditoriumServiceImp.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/epam/spring/hometask/service/implementations/BookingServiceImp.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/epam/spring/hometask/service/implementations/DiscountServiceImp.java" />
         <option value="$PROJECT_DIR$/src/main/resources/aspectsContext.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ua/epam/spring/hometask/utils.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/epam/spring/hometask/service/implementations/EntityStatisticServiceImp.java" />
@@ -151,6 +191,19 @@
         <option value="$PROJECT_DIR$/src/main/java/ua/epam/spring/hometask/repositories/AuditoriumEventRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/epam/spring/hometask/service/implementations/EventServiceImp.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/epam/spring/hometask/Main.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/soundsystem/CDPlayerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/soundsystem/CDPlayerXMLConfigTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/desserts/Cookie.java" />
+        <option value="$PROJECT_DIR$/src/main/java/desserts/Cake.java" />
+        <option value="$PROJECT_DIR$/src/main/java/desserts/IceCream.java" />
+        <option value="$PROJECT_DIR$/src/main/java/desserts/components/IceCream.java" />
+        <option value="$PROJECT_DIR$/src/main/java/desserts/component/IceCream.java" />
+        <option value="$PROJECT_DIR$/src/main/java/desserts/config/DessertConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dessert/config/DessertConfig.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dessert/DessertTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dessert/component/Cake.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dessert/config/DessertConfiguration.java" />
       </list>
     </option>
   </component>
@@ -172,9 +225,6 @@
       <expand />
       <select />
     </treeState>
-  </component>
-  <component name="MavenRunner">
-    <option name="skipTests" value="true" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
@@ -266,8 +316,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -299,7 +347,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ua" type="462c0819:PsiDirectoryNode" />
+              <item name="dessert" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-core-hometask-skeleton" type="b2602c69:ProjectViewProjectNode" />
@@ -307,8 +355,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ua" type="462c0819:PsiDirectoryNode" />
-              <item name="epam" type="462c0819:PsiDirectoryNode" />
+              <item name="dessert" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-core-hometask-skeleton" type="b2602c69:ProjectViewProjectNode" />
@@ -316,118 +364,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ua" type="462c0819:PsiDirectoryNode" />
-              <item name="epam" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-core-hometask-skeleton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-core-hometask-skeleton" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ua" type="462c0819:PsiDirectoryNode" />
-              <item name="epam" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="hometask" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-core-hometask-skeleton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-core-hometask-skeleton" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ua" type="462c0819:PsiDirectoryNode" />
-              <item name="epam" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="hometask" type="462c0819:PsiDirectoryNode" />
-              <item name="aop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-core-hometask-skeleton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-core-hometask-skeleton" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ua" type="462c0819:PsiDirectoryNode" />
-              <item name="epam" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="hometask" type="462c0819:PsiDirectoryNode" />
-              <item name="context" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-core-hometask-skeleton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-core-hometask-skeleton" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ua" type="462c0819:PsiDirectoryNode" />
-              <item name="epam" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="hometask" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-core-hometask-skeleton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-core-hometask-skeleton" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ua" type="462c0819:PsiDirectoryNode" />
-              <item name="epam" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="hometask" type="462c0819:PsiDirectoryNode" />
-              <item name="engine" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-core-hometask-skeleton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-core-hometask-skeleton" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ua" type="462c0819:PsiDirectoryNode" />
-              <item name="epam" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="hometask" type="462c0819:PsiDirectoryNode" />
-              <item name="engine" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-core-hometask-skeleton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-core-hometask-skeleton" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ua" type="462c0819:PsiDirectoryNode" />
-              <item name="epam" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="hometask" type="462c0819:PsiDirectoryNode" />
-              <item name="repositories" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-core-hometask-skeleton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-core-hometask-skeleton" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ua" type="462c0819:PsiDirectoryNode" />
-              <item name="epam" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="hometask" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-core-hometask-skeleton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-core-hometask-skeleton" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ua" type="462c0819:PsiDirectoryNode" />
-              <item name="epam" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="hometask" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="implementations" type="462c0819:PsiDirectoryNode" />
+              <item name="dessert" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-core-hometask-skeleton" type="b2602c69:ProjectViewProjectNode" />
@@ -444,58 +382,44 @@
             </path>
             <path>
               <item name="spring-core-hometask-skeleton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="spring-core-hometask-skeleton" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-core-hometask-skeleton" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-core-hometask-skeleton" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dessert" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-core-hometask-skeleton" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-core-hometask-skeleton" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="soundsystem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-core-hometask-skeleton" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-core-hometask-skeleton" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-core-hometask-skeleton" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:1.0.0.Final" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="spring-core-hometask-skeleton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:1.0.0.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="jboss-transaction-api_1.2_spec-1.0.0.Final.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-core-hometask-skeleton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-context:5.0.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="spring-core-hometask-skeleton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-context:5.0.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-context-5.0.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-core-hometask-skeleton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-context:5.0.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-context-5.0.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-core-hometask-skeleton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-context:5.0.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-context-5.0.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-core-hometask-skeleton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-context:5.0.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-context-5.0.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="stereotype" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -503,27 +427,32 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="HSQLDB (Local)" />
     <property name="findjar.last.used.dir" value="$PROJECT_DIR$" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring_book/SpringiA4_SourceCode/Chapter_02/stereo-autoconfig" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/ua/epam/spring/hometask" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.24764891" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Astrarium\Documents\java_projects\spring-core-hometask-skeleton\src\main\resources" />
-      <recent name="C:\Users\Astrarium\Documents\java_projects\spring-core-hometask-skeleton\src\main\resources\logging" />
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="desserts.components" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Astrarium\Documents\java_projects\spring-core-hometask-skeleton\src\test\resources" />
+      <recent name="C:\Users\Astrarium\Documents\java_projects\spring-core-hometask-skeleton\src\test" />
+      <recent name="C:\Users\Astrarium\Documents\java_projects\spring-core-hometask-skeleton\src\test\java" />
+      <recent name="C:\Users\Astrarium\Documents\java_projects\spring-core-hometask-skeleton\src\test\java\ua" />
+      <recent name="C:\Users\Astrarium\Documents\java_projects\spring-core-hometask-skeleton\src\main\resources\soundsystem" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ua.epam.spring.hometask.engine.exception" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Astrarium\Documents\java_projects\spring-core-hometask-skeleton\src\main\resources\ua\epam\spring\hometask" />
+      <recent name="C:\Users\Astrarium\Documents\java_projects\spring-core-hometask-skeleton\src\main\resources\ua.epam.spring.hometask" />
       <recent name="C:\Users\Astrarium\Documents\java_projects\spring-core-hometask-skeleton\src\main\resources" />
-      <recent name="C:\Users\Astrarium\Documents\java_projects\spring-core-hometask-skeleton\src\main\java\ua\epam\spring\hometask" />
       <recent name="C:\Users\Astrarium\Documents\java_projects\spring-core-hometask-skeleton\src\main\resources\logging" />
-      <recent name="C:\Users\Astrarium\Documents\java_projects\spring-core-hometask-skeleton\target\classes\ua\epam\spring\hometask" />
-      <recent name="C:\Users\Astrarium\Documents\java_projects\spring-core-hometask-skeleton" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -538,7 +467,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.just run">
+  <component name="RunManager" selected="JUnit.DessertTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -573,6 +502,52 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+    </configuration>
+    <configuration name="CDPlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-core-hometask-skeleton" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="soundsystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="soundsystem" />
+      <option name="MAIN_CLASS_NAME" value="soundsystem.CDPlayerTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="DessertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-core-hometask-skeleton" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dessert.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="dessert" />
+      <option name="MAIN_CLASS_NAME" value="dessert.DessertTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -615,9 +590,13 @@
     <list>
       <item itemvalue="Application.just run" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.CDPlayerTest" />
+      <item itemvalue="JUnit.DessertTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DessertTest" />
+        <item itemvalue="JUnit.CDPlayerTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -651,7 +630,7 @@
       <workItem from="1528032170385" duration="24000" />
       <workItem from="1528032220426" duration="5888000" />
       <workItem from="1528311227304" duration="1106000" />
-      <workItem from="1528393741053" duration="613000" />
+      <workItem from="1528393741053" duration="5108000" />
     </task>
     <task id="LOCAL-00001" summary="[qa] first commit">
       <created>1524202693312</created>
@@ -698,8 +677,34 @@
     <option name="localTasksCounter" value="7" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="CDPlayerTest - 2018.06.10 at 23h 10m 27s.xml">
+      <configuration name="CDPlayerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DessertTest - 2018.06.10 at 23h 19m 07s.xml">
+      <configuration name="DessertTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DessertTest - 2018.06.10 at 23h 19m 28s.xml">
+      <configuration name="DessertTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DessertTest - 2018.06.10 at 23h 20m 27s.xml">
+      <configuration name="DessertTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DessertTest - 2018.06.10 at 23h 21m 16s.xml">
+      <configuration name="DessertTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DessertTest - 2018.06.10 at 23h 23m 09s.xml">
+      <configuration name="DessertTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DessertTest - 2018.06.10 at 23h 23m 42s.xml">
+      <configuration name="DessertTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DessertTest - 2018.06.10 at 23h 23m 51s.xml">
+      <configuration name="DessertTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95056000" />
+    <option name="totallyTimeSpent" value="99551000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -712,41 +717,40 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="9" weight="0.32902467" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info id="Image Layers" order="4" />
-      <window_info anchor="bottom" id="Java Enterprise" order="1" weight="0.3274648" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32902467" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32955465" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.6778169" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.52112675" />
-      <window_info anchor="bottom" id="Spring" order="12" weight="0.32922536" />
-      <window_info anchor="bottom" id="Terminal" order="13" weight="0.32902467" />
       <window_info id="Capture Tool" order="6" />
-      <window_info anchor="bottom" id="Persistence" order="14" side_tool="true" weight="0.68625146" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.33522266" />
       <window_info anchor="right" id="Database" order="4" weight="0.24378379" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24972972" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.77320796" />
+      <window_info anchor="bottom" id="TODO" order="9" weight="0.32902467" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.34507042" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info id="Image Layers" order="4" />
+      <window_info anchor="bottom" id="Java Enterprise" order="1" weight="0.3274648" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.6778169" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.52112675" />
+      <window_info anchor="bottom" id="Spring" order="12" weight="0.32922536" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="13" visible="true" weight="0.3274648" />
+      <window_info anchor="bottom" id="Persistence" order="14" side_tool="true" weight="0.68625146" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.33522266" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.6742958" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.77320796" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Database Console" order="15" weight="0.32902467" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="2" weight="0.34507042" />
       <window_info anchor="bottom" id="Hibernate Console" order="0" weight="0.5934195" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="4" weight="0.6756757" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32972974" />
     </layout>
     <layout-to-restore>
@@ -860,84 +864,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/annotation/ElementType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1803">
-          <caret line="109" column="12" selection-start-line="109" selection-start-column="4" selection-end-line="109" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/annotation/Documented.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/annotation/RetentionPolicy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/annotation/Retention.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/epam/spring/hometask/utils/HibernateUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/jre/lib/rt.jar!/java/sql/SQLException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/jre/lib/rt.jar!/java/lang/NullPointerException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/jre/lib/rt.jar!/java/lang/RuntimeException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE-sources.jar!/org/springframework/context/ConfigurableApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="42" column="71" selection-start-line="42" selection-start-column="71" selection-end-line="42" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.0.6.RELEASE/spring-data-commons-2.0.6.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1173" />
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/5.0.5.RELEASE/spring-jdbc-5.0.5.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="168" column="24" selection-start-line="168" selection-start-column="24" selection-end-line="168" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.0.5.RELEASE/spring-tx-5.0.5.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -949,13 +875,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="193" column="31" lean-forward="true" selection-start-line="193" selection-start-column="31" selection-end-line="193" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="136" column="33" selection-start-line="136" selection-start-column="33" selection-end-line="136" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -1085,10 +1004,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/aspectsContext.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ua/epam/spring/hometask/aspectsContext.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ua/epam/spring/hometask/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
@@ -1199,10 +1118,171 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ua/epam/spring/hometask/domain/TestAuditorium.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/epam/spring/hometask/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        <state relative-caret-position="207">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="236" column="20" lean-forward="true" selection-start-line="236" selection-start-column="20" selection-end-line="236" selection-end-column="20" />
+          <folding>
+            <element signature="n#description#0;n#project#0;n#!!top" />
+            <element signature="n#properties#0;n#project#0;n#!!top" />
+            <element signature="n#build#0;n#project#0;n#!!top" />
+            <element signature="n#resources#0;n#build#0;n#project#0;n#!!top" />
+            <element signature="n#resource#0;n#resources#0;n#build#0;n#project#0;n#!!top" />
+            <element signature="n#includes#0;n#resource#0;n#resources#0;n#build#0;n#project#0;n#!!top" />
+            <element signature="n#plugins#0;n#build#0;n#project#0;n#!!top" />
+            <element signature="n#plugin#0;n#plugins#0;n#build#0;n#project#0;n#!!top" />
+            <element signature="n#configuration#0;n#plugin#0;n#plugins#0;n#build#0;n#project#0;n#!!top" />
+            <element signature="n#plugin#1;n#plugins#0;n#build#0;n#project#0;n#!!top" />
+            <element signature="n#configuration#0;n#plugin#1;n#plugins#0;n#build#0;n#project#0;n#!!top" />
+            <element signature="n#executions#0;n#plugin#1;n#plugins#0;n#build#0;n#project#0;n#!!top" />
+            <element signature="n#execution#0;n#executions#0;n#plugin#1;n#plugins#0;n#build#0;n#project#0;n#!!top" />
+            <element signature="n#goals#0;n#execution#0;n#executions#0;n#plugin#1;n#plugins#0;n#build#0;n#project#0;n#!!top" />
+            <element signature="n#plugin#2;n#plugins#0;n#build#0;n#project#0;n#!!top" />
+            <element signature="n#configuration#0;n#plugin#2;n#plugins#0;n#build#0;n#project#0;n#!!top" />
+            <element signature="n#plugin#3;n#plugins#0;n#build#0;n#project#0;n#!!top" />
+            <element signature="n#reporting#0;n#project#0;n#!!top" />
+            <element signature="n#plugins#0;n#reporting#0;n#project#0;n#!!top" />
+            <element signature="n#plugin#0;n#plugins#0;n#reporting#0;n#project#0;n#!!top" />
+            <element signature="n#configuration#0;n#plugin#0;n#plugins#0;n#reporting#0;n#project#0;n#!!top" />
+            <element signature="e#3558#3754#0" />
+            <element signature="e#4163#4256#0" />
+            <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#4;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#5;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#6;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#7;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#8;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#9;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#10;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#11;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#12;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#13;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#14;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#15;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#16;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#17;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#18;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#19;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#20;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#21;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#22;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#organization#0;n#project#0;n#!!top" />
+            <element signature="n#issueManagement#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/soundsystem/BlankDisc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/stefanbirkner/system-rules/1.18.0/system-rules-1.18.0.jar!/org/junit/contrib/java/lang/system/StandardOutputStreamLog.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <folding>
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/soundsystem/CDPlayerXMLConfigTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dessert/component/Dessert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dessert/component/Cookie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dessert/component/IceCream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/soundsystem/CDPlayerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/inject/guice/4.0-beta/guice-4.0-beta.jar!/com/google/inject/name/Named.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dessert/component/Cake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dessert/DessertTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dessert/config/DessertConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:c="http://www.springframework.org/schema/c" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/util
+       http://www.springframework.org/schema/util/spring-util.xsd">
+    <import resource="discs.xml"/>
+    <util:list id="listOfDiscography">
+        <ref bean="blankDisc"></ref>
+        <ref bean="peppers"></ref>
+    </util:list>
+    <bean class="soundsystem.CDPlayer" c:_0-ref="blankDisc">
+        <!--<constructor-arg ref="peppers"/>-->
+        <!--<constructor-arg ref="soundsystem.SgtPeppers#0"/>-->
+    </bean>
+    <bean class="soundsystem.Discography" id="discography1">
+        <constructor-arg name="name" value="test discography"/>
+        <constructor-arg name="discList" ref="listOfDiscography"/>
+    </bean>
+
+</beans>

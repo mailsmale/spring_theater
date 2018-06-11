@@ -10,7 +10,7 @@ package ua.epam.spring.hometask.aop;
  * Руководство по Spring. АОП в Spring с использованием аннотаций (пример приложения).
  * http://proselyte.net/tutorials/spring-tutorial-full-version/aop-with-spring/aop-example-annotations/
  *
- * Spring Auto scanning components https://www.mkyong.com/spring/spring-auto-scanning-components/
+ * Spring Auto scanning component https://www.mkyong.com/spring/spring-auto-scanning-components/
  *
  * Introduction to Pointcut Expressions in Spring
  * http://www.baeldung.com/spring-aop-pointcut-tutorial

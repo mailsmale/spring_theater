@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8be3e50b-6332-44e3-8256-45721692de25" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../../.idea/dataSources/c232570a-0380-4179-8d66-a696423cc74a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/dataSources/c232570a-0380-4179-8d66-a696423cc74a.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="8be3e50b-6332-44e3-8256-45721692de25" name="Default" comment="iii">
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/spring-core-hometask-skeleton.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/spring-core-hometask-skeleton.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Chapter_01/knight" beforeDir="false" afterPath="$PROJECT_DIR$/../../Chapter_01/knight" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/soundsystem/CDPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/soundsystem/CDPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/soundsystem/CDPlayerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/soundsystem/CDPlayerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/soundsystem/SgtPeppers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/soundsystem/SgtPeppers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/spring/soundsystem.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring/soundsystem.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/soundsystem/CDPlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/soundsystem/CDPlayerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/soundsystem/CDPlayerXMLConfigTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/soundsystem/CDPlayerXMLConfigTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_03/conditional/src/main/java/com/habuma/restfun/MagicConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Chapter_03/conditional/src/main/java/com/habuma/restfun/MagicConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_03/conditional/src/test/java/com/habuma/restfun/MagicExistsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Chapter_03/conditional/src/test/java/com/habuma/restfun/MagicExistsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_03/profiles/src/main/resources/datasource-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Chapter_03/profiles/src/main/resources/datasource-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_03/profiles/src/test/java/profiles/DataSourceConfigTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Chapter_03/profiles/src/test/java/profiles/DataSourceConfigTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../src/main/java/ua/epam/spring/hometask/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../src/main/java/ua/epam/spring/hometask/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../src/main/java/ua/epam/spring/hometask/aop/CounterAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../src/main/java/ua/epam/spring/hometask/aop/CounterAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../src/main/resources/ua/epam/spring/hometask/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../src/main/resources/aspectsContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../src/main/resources/ua/epam/spring/hometask/aspectsContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../src/main/resources/ua/epam/spring/hometask/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../src/main/resources/ua/epam/spring/hometask/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../src/main/resources/ua/epam/spring/hometask/spring.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -61,7 +65,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="soundsystemcopy.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="soundsystemcopy.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/soundsystemcopy.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
@@ -70,15 +74,34 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="site.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/site/site.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-103" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file leaf-file-name="CDPlayerTest.java" pinned="true" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/soundsystem/CDPlayerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-99">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="17">
+              <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StandardOutputStreamLog.java" pinned="false" current-in-tab="true">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.stefanbirkner/system-rules/1.5.0/9410aa733527b0ae825e45a01c9c8e5cadcc45c9/system-rules-1.5.0-sources.jar!/org/junit/contrib/java/lang/system/StandardOutputStreamLog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#849#850#0" expanded="true" />
-                <element signature="e#882#883#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,7 +110,7 @@
       <file leaf-file-name="AnnotationConfigApplicationContext.java" pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.0.7.RELEASE/bda4611ef38be7ce6ba88b9cc9fe87985aca224a/spring-context-4.0.7.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
+            <state relative-caret-position="510">
               <caret line="48" column="70" selection-start-line="48" selection-start-column="70" selection-end-line="48" selection-end-column="70" />
             </state>
           </provider>
@@ -96,7 +119,7 @@
       <file leaf-file-name="GenericApplicationContext.java" pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.0.7.RELEASE/bda4611ef38be7ce6ba88b9cc9fe87985aca224a/spring-context-4.0.7.RELEASE-sources.jar!/org/springframework/context/support/GenericApplicationContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
+            <state relative-caret-position="986">
               <caret line="85" column="97" selection-start-line="85" selection-start-column="97" selection-end-line="85" selection-end-column="97" />
             </state>
           </provider>
@@ -105,7 +128,7 @@
       <file leaf-file-name="BeanDefinitionRegistry.java" pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.0.7.RELEASE/75001c4333e5f65dc2a977c07e293564672349bc/spring-beans-4.0.7.RELEASE-sources.jar!/org/springframework/beans/factory/support/BeanDefinitionRegistry.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
+            <state relative-caret-position="510">
               <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
             </state>
           </provider>
@@ -164,6 +187,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -178,11 +210,11 @@
       <find>sgt</find>
       <find>compile</find>
       <find>CDPlayer</find>
-      <find>StandardOutputStreamLog</find>
       <find>sgtPeppers</find>
       <find>Track</find>
       <find>player</find>
       <find>SgtPeppers</find>
+      <find>StandardOutputStreamLog</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -561,9 +593,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -654,6 +686,78 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stereo-autoconfig" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="stereo-autoconfig" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: com.github.stefanbirkner:system-rules:1.5.0" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="stereo-autoconfig" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: com.github.stefanbirkner:system-rules:1.5.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="system-rules-1.5.0.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stereo-autoconfig" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: com.github.stefanbirkner:system-rules:1.5.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="system-rules-1.5.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stereo-autoconfig" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: com.github.stefanbirkner:system-rules:1.5.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="system-rules-1.5.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stereo-autoconfig" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: com.github.stefanbirkner:system-rules:1.5.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="system-rules-1.5.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="contrib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stereo-autoconfig" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: com.github.stefanbirkner:system-rules:1.5.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="system-rules-1.5.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="contrib" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stereo-autoconfig" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: com.github.stefanbirkner:system-rules:1.5.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="system-rules-1.5.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="contrib" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stereo-autoconfig" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: com.github.stefanbirkner:system-rules:1.5.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="system-rules-1.5.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="contrib" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -845,8 +949,17 @@
       <updated>1528041910398</updated>
       <workItem from="1528041911610" duration="6758000" />
       <workItem from="1528311228189" duration="631000" />
-      <workItem from="1528393781280" duration="12045000" />
+      <workItem from="1528393781280" duration="13089000" />
+      <workItem from="1528660945605" duration="1712000" />
     </task>
+    <task id="LOCAL-00001" summary="iii">
+      <created>1528646428785</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1528646428785</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -882,43 +995,42 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19434000" />
+    <option name="totallyTimeSpent" value="22190000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24939272" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5105634" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32922536" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.6549296" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32922536" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32922536" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37732795" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.394332" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Gradle" order="3" weight="0.32955465" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5105634" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32922536" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32922536" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24939272" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -926,6 +1038,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="iii" />
+    <option name="LAST_COMMIT_MESSAGE" value="iii" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1016,20 +1132,6 @@ Arrays.asList(((CDPlayer)beansOfType.get(&quot;cdPlayer&quot;)).getCd(),((CDPlay
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.0.7.RELEASE/bda4611ef38be7ce6ba88b9cc9fe87985aca224a/spring-context-4.0.7.RELEASE-sources.jar!/org/springframework/context/annotation/Condition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.0.7.RELEASE/bda4611ef38be7ce6ba88b9cc9fe87985aca224a/spring-context-4.0.7.RELEASE-sources.jar!/org/springframework/context/annotation/Conditional.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="58" column="28" lean-forward="true" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.0.7.RELEASE/bda4611ef38be7ce6ba88b9cc9fe87985aca224a/spring-context-4.0.7.RELEASE-sources.jar!/org/springframework/context/annotation/Configuration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="369">
@@ -1152,13 +1254,6 @@ Arrays.asList(((CDPlayer)beansOfType.get(&quot;cdPlayer&quot;)).getCd(),((CDPlay
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/javax/inject/javax.inject/1/javax.inject-1-sources.jar!/javax/inject/Named.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1188,16 +1283,6 @@ Arrays.asList(((CDPlayer)beansOfType.get(&quot;cdPlayer&quot;)).getCd(),((CDPlay
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/soundsystem/SgtPeppersSecond.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.stefanbirkner/system-rules/1.5.0/9410aa733527b0ae825e45a01c9c8e5cadcc45c9/system-rules-1.5.0-sources.jar!/org/junit/contrib/java/lang/system/StandardOutputStreamLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/Rule.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1233,15 +1318,6 @@ Arrays.asList(((CDPlayer)beansOfType.get(&quot;cdPlayer&quot;)).getCd(),((CDPlay
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1296,13 +1372,7 @@ Arrays.asList(((CDPlayer)beansOfType.get(&quot;cdPlayer&quot;)).getCd(),((CDPlay
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/configurationjavaoverxml.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/configurationjavaoverxml.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/soundsystem/CDConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1327,21 +1397,21 @@ Arrays.asList(((CDPlayer)beansOfType.get(&quot;cdPlayer&quot;)).getCd(),((CDPlay
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.0.7.RELEASE/75001c4333e5f65dc2a977c07e293564672349bc/spring-beans-4.0.7.RELEASE-sources.jar!/org/springframework/beans/factory/support/BeanDefinitionRegistry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
+        <state relative-caret-position="510">
           <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.0.7.RELEASE/bda4611ef38be7ce6ba88b9cc9fe87985aca224a/spring-context-4.0.7.RELEASE-sources.jar!/org/springframework/context/support/GenericApplicationContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
+        <state relative-caret-position="986">
           <caret line="85" column="97" selection-start-line="85" selection-start-column="97" selection-end-line="85" selection-end-column="97" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.0.7.RELEASE/bda4611ef38be7ce6ba88b9cc9fe87985aca224a/spring-context-4.0.7.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
+        <state relative-caret-position="510">
           <caret line="48" column="70" selection-start-line="48" selection-start-column="70" selection-end-line="48" selection-end-column="70" />
         </state>
       </provider>
@@ -1357,18 +1427,6 @@ Arrays.asList(((CDPlayer)beansOfType.get(&quot;cdPlayer&quot;)).getCd(),((CDPlay
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="48" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/soundsystem/CDPlayerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-99">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#849#850#0" expanded="true" />
-            <element signature="e#882#883#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1390,6 +1448,38 @@ Arrays.asList(((CDPlayer)beansOfType.get(&quot;cdPlayer&quot;)).getCd(),((CDPlay
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="120" selection-start-line="5" selection-start-column="120" selection-end-line="5" selection-end-column="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/site/site.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-103" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/soundsystem/CDPlayerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.stefanbirkner/system-rules/1.5.0/9410aa733527b0ae825e45a01c9c8e5cadcc45c9/system-rules-1.5.0-sources.jar!/org/junit/contrib/java/lang/system/StandardOutputStreamLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

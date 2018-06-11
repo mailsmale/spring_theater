@@ -19,9 +19,9 @@ public class Main {
 
     public static void main(String[] args) {
         ConfigurableApplicationContext aspectContext = new ClassPathXmlApplicationContext(
-                "aspectsContext.xml");
+                "ua/epam/spring/hometask/aspectsContext.xml");
         ConfigurableApplicationContext applicationContext = new ClassPathXmlApplicationContext(
-                "applicationContext.xml");
+                "ua/epam/spring/hometask/applicationContext.xml");
         applicationContext.getBean(InitDBService.class).init();
         EventService eventService = applicationContext.getBean(EventService.class);
         AuditoriumService auditoriumService = applicationContext.getBean(AuditoriumService.class);
