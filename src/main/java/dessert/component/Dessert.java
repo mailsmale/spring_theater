@@ -2,9 +2,10 @@ package dessert.component;
 
 public interface Dessert {
 
-    boolean inStock = false;
+    String getProductName();
+    String setProductName();
 
-    default String eat(){
+    default String eat() {
         return String.format("eating %s", this.getClass().getSimpleName().toLowerCase());
     }
 }

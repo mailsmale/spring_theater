@@ -3,10 +3,11 @@ package dessert.component;
 import org.springframework.stereotype.Component;
 
 import dessert.annotaion.qualifier.Creamy;
+import dessert.annotaion.qualifier.Cruspy;
 
 @Component
 //@Qualifier(value = "soft")
-@Creamy
-public class Cake implements Dessert {
+public class Cake extends AbstractDessert {
+
 
 }

@@ -6,6 +6,7 @@ import dessert.annotaion.conditional.annotation.InStock;
 import dessert.annotaion.qualifier.Cold;
 import dessert.annotaion.qualifier.Creamy;
 import dessert.annotaion.qualifier.Fruity;
+import lombok.experimental.Accessors;
 
 @Component
 //@Qualifier("cold")
@@ -13,6 +14,6 @@ import dessert.annotaion.qualifier.Fruity;
 @Cold
 @Creamy
 @InStock
-public class IceCream implements Dessert {
+public class IceCream extends AbstractDessert {
 
 }
