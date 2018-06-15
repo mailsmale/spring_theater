@@ -9,21 +9,25 @@ import lombok.Setter;
 import lombok.experimental.Accessors;
 
 @NoArgsConstructor
-@AllArgsConstructor
 @Setter
 @Getter
 public abstract class AbstractDessert implements Dessert {
 
     private String productName;
 
-    @Override
-    public String getProductName() {
-        return null;
+    public AbstractDessert(final String productName){
+        this.productName = productName;
     }
 
     @Override
-    public String setProductName() {
-        return null;
+    public String getProductName() {
+        return productName;
+    }
+
+    @Override
+    public String setProductName(final String productName) {
+        this.productName = productName;
+        return productName;
     }
 
 

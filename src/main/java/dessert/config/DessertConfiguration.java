@@ -2,6 +2,7 @@ package dessert.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -13,8 +14,11 @@ import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 import org.springframework.core.env.Environment;
 
 import dessert.annotaion.conditional.annotation.InStock;
+import dessert.annotaion.qualifier.Cold;
 import dessert.annotaion.qualifier.Creamy;
 import dessert.annotaion.qualifier.Cruspy;
+import dessert.annotaion.qualifier.Fruity;
+import dessert.annotaion.qualifier.Soft;
 import dessert.component.AbstractDessert;
 import dessert.component.Cake;
 import dessert.component.Cookie;
@@ -37,14 +41,9 @@ public class DessertConfiguration {
     }
 
     @Bean
-    public Dessert cake() {
-        return new Cake();
-    }
-
-    @Bean
     @Qualifier(value = "iceCream")
     public Dessert iceCream() {
-        return new IceCream();
+        return new IceCream("321");
     }
 
     @Bean
@@ -63,5 +62,29 @@ public class DessertConfiguration {
     public AbstractDessert cookie() {
         return new Cookie(environment.getProperty("cookie.product.name", "N O T F O U N D"));
     }
+
+    @Bean
+    @InStock
+    @Scope(proxyMode = ScopedProxyMode.DEFAULT, scopeName = ConfigurableBeanFactory.SCOPE_PROTOTYPE)
+    @Profile("dev")
+    @Fruity
+    @Cold
+    @Creamy
+    @Qualifier("iceBerg")
+    public AbstractDessert iceCreamWithProductName() {
+        return new IceCream(environment.getProperty("icecream.product.name", "N O T F O U N D"));
+    }
+
+    @Bean
+    @Autowired
+    @Soft
+    @Fruity
+    @Creamy
+    @Profile("dev")
+    public AbstractDessert cake (@Value("#{systemProperties['java.vm.specification.vendor']}")final String productName){
+        return new Cake(productName);
+    }
+
+
 
 }

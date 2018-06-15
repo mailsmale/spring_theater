@@ -37,10 +37,14 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
       <excludeFolder url="file://$MODULE_DIR$/spring_book" />
+      <excludeFolder url="file://$MODULE_DIR$/src/main/java/dessert" />
       <excludeFolder url="file://$MODULE_DIR$/src/main/java/soundsystem" />
       <excludeFolder url="file://$MODULE_DIR$/src/main/java/ua" />
+      <excludeFolder url="file://$MODULE_DIR$/src/main/resources" />
+      <excludeFolder url="file://$MODULE_DIR$/src/test/java/dessert" />
       <excludeFolder url="file://$MODULE_DIR$/src/test/java/soundsystem" />
       <excludeFolder url="file://$MODULE_DIR$/src/test/java/ua" />
+      <excludeFolder url="file://$MODULE_DIR$/src/test/resources/dessert" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
