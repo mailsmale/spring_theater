@@ -2,22 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8be3e50b-6332-44e3-8256-45721692de25" name="Default" comment="iii">
-      <change beforePath="$PROJECT_DIR$/../../../../.idea/spring-core-hometask-skeleton.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/spring-core-hometask-skeleton.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/eclipseCodeFormatter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/eclipseCodeFormatter.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Chapter_01/knight" beforeDir="false" afterPath="$PROJECT_DIR$/../../Chapter_01/knight" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Chapter_03/conditional/src/main/java/com/habuma/restfun/MagicConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Chapter_03/conditional/src/main/java/com/habuma/restfun/MagicConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Chapter_03/conditional/src/test/java/com/habuma/restfun/MagicExistsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Chapter_03/conditional/src/test/java/com/habuma/restfun/MagicExistsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Chapter_03/profiles/src/main/resources/datasource-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Chapter_03/profiles/src/main/resources/datasource-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Chapter_03/profiles/src/test/java/profiles/DataSourceConfigTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Chapter_03/profiles/src/test/java/profiles/DataSourceConfigTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../src/main/java/ua/epam/spring/hometask/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../src/main/java/ua/epam/spring/hometask/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../src/main/java/ua/epam/spring/hometask/aop/CounterAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../src/main/java/ua/epam/spring/hometask/aop/CounterAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../src/main/resources/ua/epam/spring/hometask/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../src/main/resources/aspectsContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../src/main/resources/ua/epam/spring/hometask/aspectsContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../src/main/resources/ua/epam/spring/hometask/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../src/main/resources/ua/epam/spring/hometask/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../src/main/resources/ua/epam/spring/hometask/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_03/conditional/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Chapter_03/conditional/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_03/externals/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Chapter_03/externals/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_03/scopedbeans/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Chapter_03/scopedbeans/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -76,9 +67,7 @@
       </file>
       <file leaf-file-name="site.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/site/site.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-103" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
@@ -89,7 +78,7 @@
       <file leaf-file-name="CDPlayerTest.java" pinned="true" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/soundsystem/CDPlayerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="68">
               <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
             </state>
           </provider>
@@ -98,8 +87,8 @@
       <file leaf-file-name="StandardOutputStreamLog.java" pinned="false" current-in-tab="true">
         <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.stefanbirkner/system-rules/1.5.0/9410aa733527b0ae825e45a01c9c8e5cadcc45c9/system-rules-1.5.0-sources.jar!/org/junit/contrib/java/lang/system/StandardOutputStreamLog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+            <state relative-caret-position="50">
+              <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,7 +126,7 @@
       <file leaf-file-name="CDPlayerXMLConfigTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/soundsystem/CDPlayerXMLConfigTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="85">
               <caret line="14" column="64" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -178,7 +167,7 @@
       <file leaf-file-name="CDConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/soundsystem/CDConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="85">
               <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -580,10 +569,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="312" />
-    <option name="y" value="375" />
-    <option name="width" value="1290" />
-    <option name="height" value="705" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1937" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -593,8 +582,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -763,6 +750,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -995,10 +984,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22190000" />
+    <option name="totallyTimeSpent" value="22279000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1011,12 +1001,11 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.6549296" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32922536" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32922536" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.84859157" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.394332" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.394332" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Gradle" order="3" weight="0.32955465" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1024,13 +1013,37 @@
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5105634" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32922536" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.394332" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5105634" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32922536" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24939272" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32922536" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6549296" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32922536" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24939272" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32922536" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.32955465" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info id="Designer" order="2" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1356,9 +1369,6 @@ Arrays.asList(((CDPlayer)beansOfType.get(&quot;cdPlayer&quot;)).getCd(),((CDPlay
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1375,7 +1385,7 @@ Arrays.asList(((CDPlayer)beansOfType.get(&quot;cdPlayer&quot;)).getCd(),((CDPlay
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/configurationjavaoverxml.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/soundsystem/CDConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="85">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1385,7 +1395,7 @@ Arrays.asList(((CDPlayer)beansOfType.get(&quot;cdPlayer&quot;)).getCd(),((CDPlay
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/soundsystem/CDPlayerXMLConfigTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="85">
           <caret line="14" column="64" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1452,9 +1462,7 @@ Arrays.asList(((CDPlayer)beansOfType.get(&quot;cdPlayer&quot;)).getCd(),((CDPlay
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/site/site.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-103" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1468,15 +1476,15 @@ Arrays.asList(((CDPlayer)beansOfType.get(&quot;cdPlayer&quot;)).getCd(),((CDPlay
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/soundsystem/CDPlayerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="68">
           <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.stefanbirkner/system-rules/1.5.0/9410aa733527b0ae825e45a01c9c8e5cadcc45c9/system-rules-1.5.0-sources.jar!/org/junit/contrib/java/lang/system/StandardOutputStreamLog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+        <state relative-caret-position="50">
+          <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
