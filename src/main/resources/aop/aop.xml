@@ -7,15 +7,41 @@
        http://www.springframework.org/schema/aop
        http://www.springframework.org/schema/aop/spring-aop-4.3.xsd">
 
+    <bean class="aop.component.CriticismEngineImpl" id="criticismEngine">
+        <constructor-arg>
+            <array>
+                <value>Worst performance ever!</value>
+                <value>I laughed, I cried, then I realized I was at the wrong show.</value>
+                <value>A must see show!</value>
+            </array>
+        </constructor-arg>
+    </bean>
     <bean class="aop.aspect.AudienceXML" id="audienceXML"/>
+    <bean class="aop.aspect.AuditoriumPerformanceCounterAspectXML" id="auditoriumPerformanceCounterAspectXML"/>
     <aop:config>
         <aop:aspect ref="audienceXML">
             <aop:pointcut id="perform" expression="execution(* aop.component.Auditorium.perform(..)))"/>
-            <aop:before method="silenceCellPhones" pointcut-ref="perform"/>
-            <aop:before method="takeSeats" pointcut-ref="perform"/>
-            <aop:after-returning method="applause" pointcut-ref="perform"/>
-            <aop:after-throwing method="demandRefund" pointcut-ref="perform"/>
+            <!--<aop:before method="silenceCellPhones" pointcut-ref="perform"/>-->
+            <!--<aop:before method="takeSeats" pointcut-ref="perform"/>-->
+            <!--<aop:after-returning method="applause" pointcut-ref="perform"/>-->
+            <!--<aop:after-throwing method="demandRefund" pointcut-ref="perform"/>-->
+            <aop:around method="aroundPerformance" pointcut-ref="perform"/>
         </aop:aspect>
+        <aop:aspect ref="auditoriumPerformanceCounterAspectXML">
+            <aop:pointcut id="perform1" expression="execution(* aop.component.Auditorium.perform())"/>
+            <aop:pointcut id="perform2"
+                          expression="execution(* *..Auditorium.performEvent(*..Performance)) and args(performance)"/>
+            <aop:around method="aroundPerformance1" pointcut-ref="perform1"/>
+            <aop:around method="aroundPerformance2" pointcut-ref="perform2"/>
+        </aop:aspect>
+        <aop:aspect>
+            <aop:declare-parents types-matching="aop.component.Performance+"
+                                 implement-interface="aop.component.Encoreable"
+                                 delegate-ref="encoreableIntroducer"/>
+            <!-- you can specify the deletator not only by the ref on the bean, but using the implementation class like this
+            default-impl="aop.component.DefaultEncoreable
+            -->
 
+        </aop:aspect>
     </aop:config>
 </beans>

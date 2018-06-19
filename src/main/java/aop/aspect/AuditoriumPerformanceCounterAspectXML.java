@@ -9,33 +9,26 @@ import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Pointcut;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.stereotype.Component;
 
 import aop.component.Auditorium;
 import aop.component.Performance;
 
-@Aspect
-@Component
-public class AuditoriumPerformanceCounterAspect {
+public class AuditoriumPerformanceCounterAspectXML {
 
     private final Logger LOG = LoggerFactory.getLogger(this.getClass().getName());
     private Map<String, Integer> performanceCounter = new HashMap<String, Integer>();
 
-    @Pointcut("execution(* aop.component.Auditorium.perform())")
     public void performancePointcut1() {
     }
 
-    @Pointcut("execution(* *..Auditorium.performEvent(*..Performance)) && args(performance)")
     public void performancePointcut2(final Performance performance) {
     }
 
-    @Around("performancePointcut1()")
     public void aroundPerformance1(ProceedingJoinPoint jp) {
         Performance performance = ((Auditorium) jp.getTarget()).getPerformance();
         aroundPerformance(performance, jp);
     }
 
-    @Around("performancePointcut2(performance)")
     public void aroundPerformance2(ProceedingJoinPoint jp, final Performance performance) {
         aroundPerformance(performance, jp);
     }

@@ -1,17 +1,21 @@
 package aop;
 
-import aop.aspect.AuditoriumPerformanceCounterAspect;
-import aop.component.Auditorium;
+import java.util.stream.Stream;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
+import static org.assertj.core.api.Java6Assertions.assertThat;
+
+import aop.aspect.AuditoriumPerformanceCounterAspectXML;
+import aop.aspect.CriticAspect;
+import aop.aspect.EncoreableIntroducer;
+import aop.component.Auditorium;
 import aop.component.Performance;
 import aop.configuration.PerformanceConfiguration;
-
-import static org.assertj.core.api.Java6Assertions.assertThat;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = PerformanceConfiguration.class)
@@ -21,10 +25,16 @@ public class PerformanceTesting {
     Performance sitcomHouseOfCarts;
 
     @Autowired
-    AuditoriumPerformanceCounterAspect auditoriumPerformanceCounterAspect;
+    AuditoriumPerformanceCounterAspectXML auditoriumPerformanceCounterAspectXML;
 
     @Autowired
     Auditorium auditorium;
+
+    @Autowired
+    EncoreableIntroducer encoreableIntroducer;
+
+    @Autowired
+    CriticAspect criticAspect;
 
     @Test
     public void performanceTesting() {
@@ -32,9 +42,15 @@ public class PerformanceTesting {
         auditorium.performEvent(sitcomHouseOfCarts);
         auditorium.perform();
         auditorium.perform();
-        Integer actual = auditoriumPerformanceCounterAspect.getPerformanceCounter().get(sitcomHouseOfCarts
-                .getPerformanceName());
+        Integer actual = auditoriumPerformanceCounterAspectXML.getPerformanceCounter()
+                .get(sitcomHouseOfCarts.getPerformanceName());
         assertThat(actual).isEqualTo(3);
+    }
+
+    @Test
+    public void delcareParentsAnnotationTesting() {
+        assertThat(Stream.of(sitcomHouseOfCarts.getClass().getDeclaredMethods())
+                .filter(method -> method.getName().equals("performEncore")).findFirst().isPresent()).isEqualTo(true);
     }
 
 }
