@@ -1,4 +1,4 @@
-package web.configuration;
+package spitter.configuration;
 
 import org.springframework.lang.Nullable;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
